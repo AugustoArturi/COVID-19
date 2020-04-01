@@ -92,6 +92,14 @@ p {
   line-height: 24px;
   color: #121212;
   margin: 0px; }
+ 
+ .indent{
+	 text-indent: 50px;
+	 line-height: 1.6;
+ }
+ .cite{
+	 text-indent: 0px;
+ }
 
 .bg_cover {
   background-position: center center;
@@ -405,7 +413,9 @@ p {
   @media (max-width: 767px) {
     .buttons-title .title {
       font-size: 24px;
-      line-height: 35px; } }
+      line-height: 35px; } .row .col-lg-6 .slider-content {
+}
+}
 
 .main-btn {
   display: inline-block;
@@ -2392,6 +2402,8 @@ p {
         right: 25%; } }
   .carousel-item .slider-image-box {
     position: absolute;
+	align-content:flex-end;
+	align-items:flex-end center;
     top: -70px;
     right: 0;
     width: 50%;
@@ -2404,17 +2416,24 @@ p {
 .slider-content {
   position: relative;
   z-index: 9;
-  padding-top: 240px;
-  padding-bottom: 200px; }
+  padding-top: 140px;
+  padding-bottom: 40px; }
   @media (max-width: 767px) {
     .slider-content {
       padding-top: 190px;
       padding-bottom: 150px; } }
   .slider-content .title {
-    font-size: 88px;
-    line-height: 96px;
+    font-size: 36px;
+    line-height: 56px;
     color: #fff;
     font-weight: 700; }
+	
+   .slider-content .subtitle {
+    font-size: 20px;
+	padding-top: 12px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 500; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider-content .title {
         font-size: 58px;
@@ -2777,6 +2796,7 @@ p {
 .about-area {
   padding-top: 80px;
   padding-bottom: 130px;
+  width: 100%;
   position: center; }
   .about-area .about-title .sub-title {
     font-size: 18px;
@@ -2805,7 +2825,7 @@ p {
       background: none;
       margin-top: 40px; }
       .about-area .about-accordion .accordion .card .card-header a {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 500;
         color: #000;
         display: block;

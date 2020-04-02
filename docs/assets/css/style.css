@@ -116,6 +116,7 @@ p {
 .section-title .title {
   font-size: 44px;
   font-weight: 600;
+  padding-top: 44px;
   color: #121212;
   line-height: 55px; }
   @media (max-width: 767px) {
